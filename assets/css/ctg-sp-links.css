@@ -1,0 +1,128 @@
+/*-------------------- SP CTG Links Base Styles (Pages) ----------------
+ * 
+ * This is going to be anything not size- or placement-based,
+ * so anything not really positioned absolutely. The @media 
+ * queries are basically just for the logo and the link to 
+ * the website, because they have some positioning shenanigans
+ * happening.
+ * 
+ * ------------------------------------------------------------*/
+
+
+
+.ctg-links-module {
+    margin:auto;
+    width:75%;
+}
+
+.ctg-links-name {
+    background-color:transparent;
+    width:75%;
+    color:#dbb778;
+    margin:auto;
+	line-height:0;
+	display:flex;
+    align-items: center;
+    justify-content:center;
+	font-family: bree-serif, sans-serif;
+    font-weight: 300;
+	font-size: 16px;
+    z-index:2;
+}
+
+.ctg-links-name h3 {
+	transform:translateY(6px);
+}
+
+
+/*--------------------
+ * 
+ * This is going to be the little line thing that
+ * wooshes out when someone hovers over a link.
+ * 
+ *--------------------*/
+
+.ctg-links-list:after {
+    content:'';
+    display:inline-block;
+    height:4px;
+    background-color:#dbb778;
+    align-self:center;
+}
+
+.ctg-links-list:hover {
+    cursor:pointer;
+}
+
+.ctg-links-list:hover:after {
+    animation-name: listline;
+    animation-fill-mode: forwards;
+    animation-duration: .25s;
+    animation-timing-function: ease-in-out;
+}
+
+.ctg-link-module-title {
+	display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bree-serif, sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+	width:75%;
+	padding-bottom:.5rem;
+	margin:auto;
+	border-bottom:3px solid #dbb778;
+}
+
+.ctg-link-module-title h5 {
+    color:#dbb778;
+	padding:0;
+	margin:auto;
+	font-size:14px;
+}
+
+.ctg-link-handle {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bree-serif, sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+    color:#dbb778;
+	padding-top:.5rem;
+	margin:auto;
+	width:75%;
+	border-top:3px solid #dbb778;
+}
+    
+    .ctg-link-handle p {
+        padding:0;
+        margin:auto;
+        font-size:14px;
+    }
+
+.ctg-links-site-link {
+    text-transform: uppercase;
+	color:white;
+	text-align:center;
+    font-family: bree-serif, sans-serif;
+}
+
+.ctg-links-logo {
+
+
+}
+
+/*---------- Commence Line Dancing ----------*/
+
+@keyframes listline {
+    0% {
+        width:0%;
+    }
+    
+    100% {
+        width:75%;
+    }
+}
+
+

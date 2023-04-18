@@ -1,0 +1,205 @@
+/*---------- Events Calendar Styles ----------*/
+#content {
+	background-color:white;
+}
+
+.tribe-common input[type="text"].tribe-events-c-search__input,.tribe-common button[type="submit"].tribe-events-c-search__button,.tribe-events-calendar-month__day-date-daynum,.tribe-events-calendar-month__header-column-title-mobile,.tribe-events-calendar-month__header-column-title-desktop,.tribe-events-c-top-bar__datepicker-time, .tribe-common .tribe-common-h8, .tribe-common .tribe-common-h7,.tribe-common .tribe-events-c-view-selector__list-item > a span, .tribe-common a.tribe-common-c-btn-border-small,.tribe-common .tribe-common-c-btn-border,.tribe-common .tribe-events-c-subscribe-dropdown__list-item a, .tribe-common *, .tribe-common .tribe-events-calendar-list__event-date-tag-weekday,.tribe-common .tribe-events-calendar-list__event-date-tag-daynum, .tribe-events-content,.tribe_events *, .tribe-events-single *, .tribe-events-back a{
+	font-family:bree-serif,sans-serif;
+}
+
+#content > div > div > div > div.tribe-events-calendar-list > div.tribe-common-g-row.tribe-events-calendar-list__event-row > div.tribe-events-calendar-list__event-date-tag.tribe-common-g-col > time {
+	height:100%;
+	max-height:80px;
+	width:100%;
+	max-width:80px;
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content:center;
+	align-items:center;
+	border-radius:40px;
+	border:2px solid #dbb778;
+}
+
+
+.tribe-common .tribe-events-calendar-list__event-date-tag-weekday,.tribe-common .tribe-events-calendar-list__event-date-tag-daynum {
+	color:#dbb778;
+}
+
+.tribe-event-date-start,.tribe-events-single-section-title,.tribe-common .tribe-events-c-nav__list li button,.tribe-common .tribe-events-c-nav__list li a {
+	font-family:dinosaur,sans-serif;
+	text-transform:uppercase;
+}
+
+
+.tribe-common .tribe-events-c-view-selector__list .tribe-events-c-view-selector__list-item:hover {
+	background-color:transparent;
+
+}
+
+.tribe-events-venue-map {
+	filter:grayscale(1);
+}
+
+
+.tribe-common .tribe-events-c-view-selector__list .tribe-events-c-view-selector__list-item:hover a span {
+	color:#2a2a2a;	
+}
+
+
+
+.tribe-common .tribe-common-c-btn-border,.tribe-common a.tribe-common-c-btn-border-small,.tribe-common button[type="submit"].tribe-events-c-search__button {
+	background-color:transparent;
+	color:#dbb778;
+	border:2px solid #dbb778;
+	border-radius:30px;
+	line-height:1;
+	transition:.15s ease-in-out;
+}
+
+.tribe-common .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover,.tribe-common .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:active,.tribe-common .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:focus,
+.tribe-common .tribe-events-c-messages__message .tribe-events-c-messages__message--notice{
+	border-color:#2a2a2a;
+	background-color:#2a2a2a;
+	color:#dbb778;
+	border-radius:30px;
+}
+
+.tribe-common .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover button {
+	color:#dbb778;
+}
+
+.tribe-common .tribe-common-c-btn-border:hover
+,.tribe-common a.tribe-common-c-btn-border-small:hover,.tribe-common button[type="submit"].tribe-events-c-search__button:hover {
+	background-color:#2a2a2a;
+	color:#dbb778;
+	border:2px solid #2a2a2a;
+}
+
+svg.tribe-common-c-svgicon--cal-export.tribe-events-c-subscribe-dropdown__export-icon {
+	
+	width:100%;
+	max-width:20px;
+	
+}
+
+.tribe-events-c-subscribe-dropdown {
+	
+	max-width:300px;
+	
+}
+
+.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
+	
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+
+.tribe-common .tribe_events {
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	padding:3px;
+	width:100%;
+	background-color:transparent;
+}
+.tribe-common * {
+	transition:.15s ease-in-out;
+}
+
+.tribe-common .tribe_events h3 {
+	font-size:13px;
+}
+
+.tribe-common .tribe-events-calendar-month__multiday-event-bar,.tribe-common .tribe-events-calendar-month__multiday-event-bar .tribe-events-calendar-month__multiday-event-bar-inner {
+	background-color:transparent;
+	padding:3px 0px 3px 10px;
+}
+
+.tribe-common .tribe_events:hover > .tribe-events-calendar-month__multiday-event-bar {
+	border-radius:30px;
+}
+	
+.tribe-common .tribe_events:hover > .tribe-events-calendar-month__multiday-event-bar  {
+		background-color:#2a2a2a;
+}
+
+.tribe-common .tribe_events:hover h3.tribe-common-h8 {
+	color:#dbb778;
+}
+
+h3.tribe-events-calendar-month__day-date time {
+	font-size:1.5rem;
+}
+
+.tribe-common .tribe-common-c-svgicon__svg-fill,.tribe-common .tribe-common-c-svgicon path {
+	fill:#dbb778;
+}
+
+.tribe-common .tribe-common-c-svgicon--messages-not-found path {
+	fill:transparent;
+}
+
+.tribe-common .tribe-events-c-nav__list li a,
+.tribe-events-c-top-bar__datepicker-time {
+	color:#dbb778;
+}
+
+.tribe-events .tribe-events-calendar-month__day-cell--selected:focus, .tribe-events .tribe-events-calendar-month__day-cell--selected:hover {
+	background-color:transparent
+}
+
+.tribe-events-calendar-month__header-column-title-mobile,.tribe-events-calendar-month__header-column-title-desktop {
+	font-size:14px;
+	color:#dbb778;
+}
+
+
+
+li.tribe-events-c-top-bar__nav-list-item button {
+	background-color:transparent;
+	color:#dbb778;
+	transition:.15s ease-in-out;
+}
+
+li.tribe-events-c-top-bar__nav-list-item:hover button,li.tribe-events-c-top-bar__nav-list-item:hover {
+	color:#2a2a2a;
+	cursor:pointer;
+}
+
+.tribe-events-calendar-month__day > button {
+
+	background-color:transparent;
+}
+
+div.tribe-events-calendar-month__day {
+	border-style:solid;
+	border-color:#dbb778;
+	border-width:0 2px 2px 0;
+	margin:0;
+}
+
+div.tribe-events-calendar-month__week {
+	border-left:1px solid #dbb778;
+}
+
+div.tribe-events-calendar-month__body {
+	border-top:1px solid #dbb778;
+}
+
+h3.tribe-events-calendar-month__day-date {
+	display:inline-block;
+	padding:10px 0 0 15px;
+	color:#dbb778;
+}
+
+.tribe-events .tribe-events-calendar-month__day-cell--mobile {
+	align-items:flex-start;
+}
+
+
+div.tooltipster-base p,div.tooltipster-base span {
+	font-family:bree-serif,sans-serif;
+}
+

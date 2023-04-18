@@ -1,0 +1,21 @@
+/*
+ * Here we have the style fyle for tha ctg admin screen styles
+ * @since Version 1.4.1
+ * 
+ * */
+
+.ctg-meta-box {
+	margin-top:10px;
+}
+
+.meta-box-sortables {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:flex-start;
+}
+
+div#ctg-links-title, div#ctg-links-email, div#ctg-links-fb, div#ctg-links-insta, div#ctg-links-sms, div#ctg-links-tel, div#ctg-links-fname, div#ctg-links-lname, div#ctg-links-vcf, div#ctg-links-handle {
+	width:100%;
+	flex: 1 0 300px;
+	margin:15px;
+}

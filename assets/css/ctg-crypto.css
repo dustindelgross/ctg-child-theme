@@ -1,0 +1,50 @@
+.ctg-crypto-text, .ctg-crypto-faq-item .ctg-crypto-text,.ctg-crypto-heading {
+        font-family:bree-serif, sans-serif;
+        font-weight:300;
+        color:#2a2a2a;
+        margin:10px 0px 5px 0px;
+    }
+    .ctg-crypto-faq-item {
+        font-family:dinosaur,Sans-Serif;
+        color:#dbb778;
+        font-weight: bolder;
+        padding:0;
+        margin:10px 0;
+    }
+    .ctg-crypto-faq-item:after {
+        content:'';
+        width:100%;
+        max-width:300px;
+        height:2px;
+        background-color: #dbb778;
+        display:block;
+        padding:0;
+        margin:0px 0px 30px 0px;
+    }
+.ctg-crypto-link-container {
+        width:100%;
+        max-width:300px;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        border:2px solid #dbb778;
+        padding:0;
+        margin:0;
+        border-radius: 20px;
+        transition:.15s ease-in-out;
+    }
+    .ctg-crypto-link-container:hover {
+        background-color: #2a2a2a;
+        color:#dbb778;
+        border-color:#2a2a2a;
+        transform:scale(1.05);    
+    }
+    .ctg-crypto-link {
+        margin:5px auto;
+        width:100%;
+        text-align: center;
+        color:#dbb778;
+    }
+    .ctg-crypto-link:hover {
+        color:#dbb778;
+    }

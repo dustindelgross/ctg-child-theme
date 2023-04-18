@@ -1,0 +1,146 @@
+/*---------- Amanda's CTG Links ----------*/
+
+#post-1813 {
+    background-color:#f3f0ec; 
+}
+
+.amanda-links-list {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:3px 0px 0px 10px;
+    margin:auto;
+    font-family: 'Cormorant Garamond';
+    font-weight: 600;
+    color:#000000;
+    text-decoration:none;
+    transition:.25s ease-in-out;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.amanda-links-list:hover {
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
+
+.amanda-links-module {
+    margin:auto;
+    width:75%;
+}
+
+.amanda-links-logo {
+    position:absolute;
+    display:block;	
+    transform:rotate(-90deg);
+    height:auto;
+}
+
+.amanda-links-site-link {
+	transform:rotate(-90deg);
+    position:absolute;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond';	
+}
+
+.amanda-link-handle {
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    align-items: center;
+    margin:auto;
+    font-family: 'Cormorant Garamond';
+    text-transform:uppercase;
+    text-align:center;
+    background-color:black;
+    width:75%;
+    color:#FFFFFF;
+}
+
+.list-line {
+    border-top:1px solid #2a2a2a75;
+    width:85%;
+    align-self: flex-end;
+    transition:.25s ease-in-out;
+}
+
+.amanda-links-list:hover .list-line {
+    border-color:transparent;
+}
+
+.amanda-links-list a {
+    color:inherit;
+    width:100%;
+}
+
+	.amanda-links-name {
+		display:block;
+		text-transform:uppercase;
+		letter-spacing:10px;
+		text-align:center;
+		font-family:'Cormorant Garamond', serif;
+		border:2px solid black;
+		margin:auto;
+		min-width:200px;
+		max-width:400px;
+		width:75%;
+		padding:0;
+}
+
+@media (min-width: 1200px) {
+	
+	.amanda-links-logo {
+		right:-10rem;
+		top:-3rem;
+		width:200px !important;
+	}
+
+	
+	
+	.amanda-links-site-link {
+		left:-12rem;
+		bottom:10rem;
+	}
+}
+
+
+@media (min-width:700px) and (max-width:1200px) {
+    
+    .amanda-links-list {
+    display:flex;
+    width:100%;
+	}
+
+	.amanda-links-logo {
+    	right:-10rem;
+	    top:-1rem;
+		width:180px !important;
+	}
+
+	.amanda-links-site-link {
+		left:-10rem;
+		bottom:10rem;
+	}
+}
+
+@media (min-width:0px) and (max-width:700px) {
+
+	.amanda-links-logo {
+    	right:-10.5rem;
+    	top:-20rem;
+	}
+	
+	.amanda-links-name {
+		display:block;
+		border:2px solid black;
+		max-width:400px;
+		padding:0;
+		width:50%;
+	}
+
+	.amanda-links-site-link {
+		left:-10rem;
+		bottom:10rem;
+	}
+}

@@ -1,0 +1,43 @@
+.isClosed {
+
+}
+
+.sales {
+	display:none;
+}
+
+.leadership {
+	display:none;
+}
+
+.marketing {
+	display:none;
+}
+
+.ops {
+	display:none;
+}
+
+.collapse-button-container {
+	display:flex;
+	width:100%;
+	flex-flow: column nowrap;
+}
+
+.collapse-button-container .collapse-button {
+	width:100%;
+	background-color:transparent;
+	color:#dbb778;
+	font-family:bree-serif,sans-serif;
+	text-transform:uppercase;
+	border:2px solid #dbb778;
+	border-radius:30px;
+	transition:.15s ease-in-out;
+}
+
+.collapse-button-container:hover .collapse-button:hover {
+	background-color:#2a2a2a;
+	color:#dbb778;
+	border:2px solid #2a2a2a;
+	transform:scale(1.05);
+}

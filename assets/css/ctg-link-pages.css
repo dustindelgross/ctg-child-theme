@@ -1,0 +1,260 @@
+/*-------------------- SP CTG Links Base Styles (Posts) ----------------
+ * 
+ * This is going to be anything not size- or placement-based,
+ * so anything not really positioned absolutely. The @media 
+ * queries are basically just for the logo and the link to 
+ * the website, because they have some positioning shenanigans
+ * happening.
+ * 
+ * ------------------------------------------------------------*/
+
+
+
+#main {
+	height:100%;
+	margin:70px 0;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}
+
+.ast-breadcrumbs-wrapper {
+	display:flex;
+	justify-content:center;
+	width:100%;
+	margin-bottom:80px;
+}
+
+.ctg-links-post-container {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+	width:100%;
+}
+
+.ctg-links-post-container .entry-header {
+	flex: 1 1 100%;
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+	justify-content:center;
+}
+
+.post-thumb-img-content {
+	display:flex;
+}
+
+.ctg-links-post-container .attachment-large {
+	margin:auto;
+	width:100%;
+	max-width:275px;
+	max-height:275px;
+	height:100%;
+	object-fit:cover;
+	object-position:50% 25%;
+	border-radius:30px;
+	box-shadow:0px 10px 25px -8px #2a2a2a;
+	aspect-ratio:1;
+}
+
+.ctg-links-bio-wrapper {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+	width:100%;
+	max-width:230px;
+	min-height:90px;
+	height:100%;
+	max-height:150px;
+	background-color:white;
+	margin-top:-35px;
+	padding:10px;
+	border-radius:20px;
+	box-shadow:0px 10px 15px -8px #2a2a2a;
+}
+
+h3.ctg-links-full-name {
+	font-family: bree-serif, sans-serif;
+	font-weight:light;
+	text-align:center;
+	color:#2a2a2a;
+	font-size:30px;
+	font-weight:300;
+	line-height:1;
+}
+
+h4.ctg-links-title {
+	font-family:dinosaur,sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	color:#dbb778;
+	font-size:20px;
+}
+
+.ctg-links-post-container .entry-content {
+	flex: 1 1 100%;
+	max-width:600px;
+	height:100%;
+	max-height:400px;
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	margin-top:20px;
+}
+
+.ctg-links-module-container {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-content:space-evenly;
+	align-items:center;
+	height:100%;
+	min-height:350px;
+	width:100%;
+	background-color:#2a2a2a;
+	padding:30px 15px;
+	border-radius:30px;
+	box-shadow:0px 10px 15px -8px #2a2a2a;
+
+}
+
+.ctg-links-module-section {
+	width:100%;
+	max-width:400px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+	align-content:stretch;
+}
+
+.ctg-links-module-title {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-family: bree-serif, sans-serif;
+	text-transform:uppercase;
+	text-align:center;
+	width:100%;
+	padding-bottom:.5rem;
+	margin:5px 0 25px 0;
+	border-bottom:3px solid #dbb778;
+}
+
+.ctg-links-module-title h5 {
+	color:#dbb778;
+	padding:0;
+	margin:auto; 
+	font-size:14px;
+}
+
+
+.ctg-links-list {
+	width:100%;
+	display:flex;
+	font-family: bree-serif, sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size:17px;
+	flex:1 0 100%;
+	flex-flow:row wrap;
+	margin:10px auto;
+	align-items:stretch;
+	justify-content:space-between;
+	text-align:center;
+}
+
+.ctg-links-list a {
+	display:block;
+	flex: 1 0 100%;
+	margin:auto;
+}
+
+.ctg-links-list:after {
+	content:'';
+	display:block;
+	height:3px;
+	background-color:#dbb778;
+	align-self:center;
+	max-width:200px;
+	margin:auto;
+}
+
+.ctg-links-list:hover a {
+	cursor:pointer;
+	color:#dbb778;
+}
+
+.ctg-links-list:hover:after {
+    animation-name: listline;
+    animation-fill-mode: forwards;
+    animation-duration: .35s;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+@media ( min-width: 800px ) {
+	.ctg-links-list {
+		max-width:125px;
+		flex:1 1 30%;
+	}
+}
+
+
+.ctg-links-handle {
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-family: bree-serif, sans-serif;
+	text-transform:uppercase;
+	text-align:center;
+	color:#dbb778;
+	padding-top:.5rem;
+	margin:25px 0 5px 0;
+	width:100%;
+	border-top:3px solid #dbb778;
+}
+    
+.ctg-links-handle p {
+	padding:0;
+	margin:auto;
+	font-size:14px;
+}
+
+
+
+
+.ctg-links-site-link {
+    text-transform: uppercase;
+	color:white;
+	text-align:center;
+    font-family: bree-serif, sans-serif;
+}
+
+.ctg-links-logo {
+
+
+}
+
+/*---------- Commence Line Dancing ----------*/
+
+@keyframes listline {
+    0% {
+        width:0%;
+    }
+    
+    100% {
+        width:100%;
+    }
+}
+
+
